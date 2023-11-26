@@ -5,4 +5,5 @@ def return_evens(num_list):
 
 
 def make_exclamation(sentence_list):
+    return [(f"{n}!") for n in sentence_list]
     pass
